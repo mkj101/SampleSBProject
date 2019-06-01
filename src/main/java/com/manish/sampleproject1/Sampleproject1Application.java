@@ -25,7 +25,7 @@ public class Sampleproject1Application {
 		log.info("\n----------------------------\n"
 				+ "Application {} is running! Access urls:\n\t "
 				+ "Local: \t\t{}://localhost:{}\n\t"
-				+ "Local Swagger link : \t\t{}://localhost:{}.swagger-ui.html\n\t",
+				+ "Local Swagger link : \t\t{}://localhost:{}/swagger-ui.html\n\t",
 		env.getProperty("spring.application.name"), 
 		protocol, env.getProperty("server.port"),
 		 protocol, env.getProperty("server.port"),
