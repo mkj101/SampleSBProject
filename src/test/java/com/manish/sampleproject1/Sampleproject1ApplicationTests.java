@@ -15,14 +15,15 @@ import com.manish.sampleproject1.service.StudentService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+
 public class Sampleproject1ApplicationTests {
 
 	@Autowired
 	private StudentService studentService;
-	
+	/*
 	@Test
 	public void contextLoads() {
-	}
+	}*/
 
 	@Test
 	public void testFindAllStudents() {
