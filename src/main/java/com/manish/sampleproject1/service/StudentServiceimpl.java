@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.manish.sampleproject1.dao.StudentDao;
+import com.manish.sampleproject1.entity.College;
 import com.manish.sampleproject1.entity.Student;
 
 
@@ -19,6 +20,12 @@ public class StudentServiceimpl implements StudentService{
 	public List<Student> findAllStudents(){
 		List<Student> students=  studentDao.findAll();
 		return students;
+	}
+
+	@Override
+	public Student addStudent(Student student) {
+		Student x= studentDao.save(student);
+		return x;
 	}
 
 }

@@ -25,4 +25,5 @@ public class CollegeServiceimpl implements CollegeService{
 		return colleges;
 	}
 
+
 }
