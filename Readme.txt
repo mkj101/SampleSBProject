@@ -36,3 +36,9 @@ you will see these values already available in the H2- in memory DB.
 
 ##@OneTOMany 
 
+### SpringSecurity Added
+@EnabledWebSecurity
+Security is configured on http request
+
+
+
